@@ -14,7 +14,7 @@ void search();
 void setcolor(int ForgC)
 { WORD wColor;
 HANDLE hStdOut=GetStdHandle(STD_OUTPUT_HANDLE);
-CONSOLE_SCREEN_BUFFER_INFO csbi;
+//CONSOLE_SCREEN_BUFFER_INFO csbi;
 
 if(GetConsoleScreenBufferInfo(hStdOut,&csbi))
 {
